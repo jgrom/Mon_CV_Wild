@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 0.95em;
+    color: #1C2228;
+    background: #00C2C2;
+}
+
+h1, h2 {
+  font-family: 'Offside', cursive;
+  color: #FF3800;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FAFCBD;
+    box-shadow: 0px 0px 10px #1C2228;
+}
+
+#header, #footer { text-align: center; }
+
+#container { display: flex; }
+
+#left-box {
+    font-size: 0.8em;
+    width: 420px;
+    background-color: #1C2228;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+#right-box h2 {
+    text-shadow: 0px 2px 2px #FAFCBD;
+}
+
+#experiences-box,
+#studies-box {
+    background: #FFF;
+    padding: 20px;
+    margin:10px;
+    border-radius: 0 10px 10px 0px;
+}
+
+#experiences-box p,
+#studies-box p {
+    padding-left: 20px;
+)
+
+#photo { border: 2px solid #FFF; }
